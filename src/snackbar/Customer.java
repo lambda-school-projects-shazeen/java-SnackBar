@@ -45,4 +45,19 @@ public void setName(String name)
 {
 	this.name = name;
 }
+
+public double getCash()
+{
+	return cash;
+}
+
+public double addCash(double cash)
+{
+	return this.cash = this.cash + cash;
+}
+
+public double buySnacks(double cost)
+{
+	return this.cash = this.cash - cost;
+}
 }
