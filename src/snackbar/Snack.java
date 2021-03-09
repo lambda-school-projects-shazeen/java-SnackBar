@@ -1,5 +1,25 @@
 package snackbar;
 
+/*
+Snack has fields (so knows)
+
+maxId - keep track of last used snack id
+id - automatically generated field
+name
+quantity
+cost
+vending machine id
+Snack has methods (so can)
+
+get id
+set and get name
+set and get cost
+set and get vending machine id
+get quantity
+add quantity when given how many to add
+buy snack when given how many to buy
+get total cost given a quantity
+*/
 public class Snack 
 {
     private static int maxId = 0;
@@ -57,5 +77,15 @@ public class Snack
     public void setVendMachId(int vendMachId)
     {
         this.vendMachId = vendMachId;
+    }
+
+    public int buySnack(int snack)
+    {
+        return snack
+    }
+
+    public int getTotal(int quantity, double cost)
+    {
+        return this.cost = this.quantity * this.cost;
     }
 }
