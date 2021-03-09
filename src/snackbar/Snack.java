@@ -81,11 +81,6 @@ public class Snack
 
     public int buySnack(int snack)
     {
-        return snack
-    }
-
-    public int getTotal(int quantity, double cost)
-    {
-        return this.cost = this.quantity * this.cost;
+        return snack;
     }
 }
